@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.app.dao.ProjectEmployeeDetailsDaoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in com.app.dao.ProjectEmployeeDetailsDaoTest
+testFindByProjectId  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at com.app.dao.ProjectEmployeeDetailsDaoTest.testFindByProjectId(ProjectEmployeeDetailsDaoTest.java:28)
+
+testFindByEmpId  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at com.app.dao.ProjectEmployeeDetailsDaoTest.testFindByEmpId(ProjectEmployeeDetailsDaoTest.java:35)
+

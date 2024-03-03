@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.app.dao.AddressDaoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.814 s <<< FAILURE! - in com.app.dao.AddressDaoTest
+testDeleteByCity  Time elapsed: 0.017 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract long com.app.dao.AddressDao.deleteAddressDetailsByState(java.lang.String); nested exception is java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract long com.app.dao.AddressDao.deleteAddressDetailsByState(java.lang.String)
+	at com.app.dao.AddressDaoTest.testDeleteByCity(AddressDaoTest.java:30)
+Caused by: java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type! Offending method: public abstract long com.app.dao.AddressDao.deleteAddressDetailsByState(java.lang.String)
+	at com.app.dao.AddressDaoTest.testDeleteByCity(AddressDaoTest.java:30)
+

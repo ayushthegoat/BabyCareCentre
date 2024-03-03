@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.app.dao.DepartmentDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.058 s <<< FAILURE! - in com.app.dao.DepartmentDaoTest
+testSaveDepartments  Time elapsed: 0.051 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [departments.UK_ie8c2kr4fl4b9ao6dkwydvm1e]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.app.dao.DepartmentDaoTest.testSaveDepartments(DepartmentDaoTest.java:31)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.app.dao.DepartmentDaoTest.testSaveDepartments(DepartmentDaoTest.java:31)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'RnD' for key 'departments.UK_ie8c2kr4fl4b9ao6dkwydvm1e'
+	at com.app.dao.DepartmentDaoTest.testSaveDepartments(DepartmentDaoTest.java:31)
+

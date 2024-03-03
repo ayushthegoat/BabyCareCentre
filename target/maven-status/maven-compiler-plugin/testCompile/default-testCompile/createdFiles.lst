@@ -1,0 +1,7 @@
+com\app\dao\ProjectEmployeeDetailsDaoTest.class
+com\app\dao\EmployeeDaoTest.class
+com\app\ApplicationTests.class
+com\app\dao\AddressDaoTest.class
+com\app\dao\DepartmentDaoTest.class
+com\app\dao\EmployeeRepositoryTestOptimistic.class
+com\app\dao\DepartmentRepositoryTestOptimistic.class

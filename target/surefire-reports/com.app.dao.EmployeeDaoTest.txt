@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.app.dao.EmployeeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.053 s <<< FAILURE! - in com.app.dao.EmployeeDaoTest
+testSaveEmps  Time elapsed: 0.042 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [emps.UK_2keuqsawmj9ei6vggg6mjp4vd]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.app.dao.EmployeeDaoTest.testSaveEmps(EmployeeDaoTest.java:52)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.app.dao.EmployeeDaoTest.testSaveEmps(EmployeeDaoTest.java:52)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a1@gmail.com' for key 'emps.UK_2keuqsawmj9ei6vggg6mjp4vd'
+	at com.app.dao.EmployeeDaoTest.testSaveEmps(EmployeeDaoTest.java:52)
+
